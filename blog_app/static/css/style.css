@@ -1,0 +1,31 @@
+/* Navbar styles */
+nav {
+    background-color: #333;
+    padding: 1em;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* General content styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+h1, h2 {
+    color: #333;
+}
